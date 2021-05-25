@@ -1,0 +1,119 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+body {
+  height          : 100vh;
+  font-family     : sans-serif;
+  background-color: rgba(70, 70, 70, 0.4);
+}
+
+.login_form {
+  width           : 360px;
+  height          : 450px;
+  background-color: rgba(64, 102, 167, 0.4);
+  border          : 1px solid black;
+  box-shadow      : 0 0 5px 2px #111;
+  position        : absolute;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  padding         : 1rem;
+  color           : #111;
+}
+
+.login_form h1 {
+  text-align    : center;
+  font-size     : 3rem;
+  margin-bottom : 2rem;
+  letter-spacing: 2px;
+}
+
+.login_form label,
+.login_form input {
+  display: block;
+  width  : 100%;
+  padding: 0.5rem;
+  color  : #111;
+}
+
+.login_form .user {
+  font-size  : 1.2rem;
+  font-weight: 600;
+}
+
+.login_form input[type="text"],
+input[type="password"] {
+  border       : none;
+  background   : transparent;
+  border-bottom: 1px solid black;
+  color        : #111;
+}
+
+input::placeholder {
+  height        : 50px;
+  color         : rgb(46, 45, 45);
+  letter-spacing: 2px;
+}
+
+.login_form input[type="text"]:focus,
+.login_form input[type="password"]:focus {
+  letter-spacing: 1px;
+}
+
+.checkbox_container {
+  padding: 0.5rem 0;
+  color  : rgb(0, 0, 0);
+}
+
+.checkbox_container label,
+.checkbox_container input {
+  display        : inline;
+  width          : 50px;
+  color          : rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.checkbox_container a {
+  text-decoration: none;
+}
+
+/* Submit */
+
+.login_form input[type="submit"] {
+  background-color: rgb(0, 255, 179);
+  border          : none;
+  border-radius   : 25px;
+  color           : #111;
+  font-size       : 1.2rem;
+  letter-spacing  : 1px;
+  font-weight     : 500;
+}
+
+.login_form input[type="submit"]:hover {
+  color : #fff;
+  cursor: pointer;
+}
+
+.login_form input[type="submit"]:active {
+  color  : black;
+  outline: none;
+}
+
+.more {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.more a {
+  color          : rgb(0, 0, 0);
+  text-decoration: none;
+  letter-spacing : 1px;
+  margin         : auto;
+}
+
+.more a:hover {
+  color: white;
+}

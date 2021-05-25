@@ -1,0 +1,67 @@
+{
+  "user1": [
+    {
+      "name": "Sabari",
+      "age": 20,
+      "dob": "20-12-2020",
+      "firstName": "Sabari",
+      "lastName": "Ramkumar",
+      "address_line1": "4th Street",
+      "address_line2": "Weavers Colony",
+      "address_line3": "Chennai",
+      "phone": "9597889253"
+    }
+  ],
+  "user2": [
+    {
+      "name": "Sandheep",
+      "age": 21,
+      "dob": "25-08-2000",
+      "firstName": "Sandheep",
+      "lastName": "Krishna",
+      "address_line1": "5th Street",
+      "address_line2": "Weavers Colony",
+      "address_line3": "Vellor",
+      "phone": "9865548658"
+    }
+  ],
+  "user3": [
+    {
+      "name": "Hari",
+      "age": 20,
+      "dob": "25-04-2001",
+      "firstName": "Hari",
+      "lastName": "Krishna",
+      "address_line1": "2nd Street",
+      "address_line2": "Teachers Colony",
+      "address_line3": "Erode",
+      "phone": "7010730626"
+    }
+  ],
+  "user4": [
+    {
+      "name": "Abi",
+      "age": 25,
+      "dob": "28-11-1997",
+      "firstName": "Abinaya",
+      "lastName": "Sundhar",
+      "address_line1": "3rd Street",
+      "address_line2": "Alpha Colony",
+      "address_line3": "Coimbatore",
+      "phone": "9025542265"
+    }
+  ],
+  "user5": [
+    {
+      "name": "Mohan",
+      "age": 21,
+      "dob": "20-11-2000",
+      "firstName": "Mohan",
+      "lastName": "Raj",
+      "address_line1": "1st Street",
+      "address_line2": "Nerhu Colony",
+      "address_line3": "Vellor",
+      "phone": "9347582632"
+    }
+  ]
+}

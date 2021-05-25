@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Log in Form</title>
+</head>
+
+<body>
+
+  <form action="user.html" method="GET" target="_blank" class="login_form">
+    <h1>Login</h1>
+    <label for="name" class="user">User name</label>
+    <input type="text" placeholder="Enter Username" required />
+
+    <label for="password" class="user">Password</label>
+    <input type="password" placeholder="Enter password" required />
+    <div class="checkbox_container">
+      <input type="checkbox" id="checkbox" />
+      <a href="">
+        <label for="checkbox">Remember me</label>
+      </a>
+    </div>
+    <input type="submit" value="Login" />
+    <div class="more">
+      <label for=""><a href="#">Create new account!</a></label>
+    </div>
+  </form>
+  <script src="app.js"></script>
+</body>
+
+</html>

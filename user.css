@@ -1,0 +1,96 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+body {
+  height          : 100vh;
+  font-family     : sans-serif;
+  background-color: rgba(70, 70, 70, 0.4);
+}
+
+.user_form {
+  width           : 600px;
+  height          : 500px;
+  background-color: rgba(64, 102, 167, 0.4);
+  border          : 1px solid black;
+  box-shadow      : 0 0 5px 2px #111;
+  position        : relative;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  padding         : 1rem;
+  color           : #111;
+  text-align      : center;
+  border-radius   : 25px;
+}
+
+.user_form h3 {
+  margin-top    : 2rem;
+  margin-bottom : 2rem;
+  letter-spacing: 2px;
+}
+
+.modal {
+  display    : none;
+  position   : absolute;
+  z-index    : 1;
+  padding-top: 100px;
+  left       : 50%;
+  top        : 50%;
+  width      : 100%;
+  height     : fit-content;
+  transform  : translate(-50%, -50%);
+  padding    : 1rem;
+  overflow   : auto;
+  color      : #111;
+
+}
+
+.modal-content {
+  background-color: rgba(59, 103, 179);
+  margin          : auto;
+  padding         : 20px;
+  border          : 1px solid #111;
+  width           : 80%;
+  border-radius   : 20px;
+  text-align      : center;
+}
+
+#record1,
+#record2,
+#record3,
+#record4,
+#record5 {
+  padding    : 20px;
+  width      : 100px;
+  text-align : center;
+  margin-left: 45%;
+  cursor     : pointer;
+}
+
+.close {
+  font-size  : 25px;
+  float      : right;
+  color      : rgb(0, 255, 179);
+  font-weight: 800;
+  cursor     : pointer;
+}
+
+#details {
+  color     : #111;
+  text-align: center;
+}
+
+.nameDetail,
+.ageDetail,
+.dobDetail,
+.firstNameDetail,
+.lastNameDetail,
+.add1Detail,
+.add2Detail,
+.add3Detail,
+.phoneDetail {
+  padding: 10px;
+}
